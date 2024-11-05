@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C Extensions
+*.so
+
+# Virtual environment
+env/
+.venv/
+fastapi_env/
+*.env
+
+# macOS specific files
+.DS_Store
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Test reports
+coverage/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Local settings
+*.local
+
+# Environment variables
+.env
+.env.*
+
+# Uvicorn pidfile
+uvicorn.pid
+
+# Static files
+staticfiles/
+mediafiles/
+
+# SQLite database files
+*.sqlite3
+
+# Exported data
+*.csv
+*.sqlite
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.mp4
+
+# Sentry files
+.sentryclirc
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
